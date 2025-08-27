@@ -1,0 +1,7 @@
+﻿{
+    "name": "krishibondhu-farmer-frontend",
+    "version": "1.0.0",
+    "dependencies": {
+        "krishibondhu-shared": "file:../shared_frontend.zip"
+    }
+}
