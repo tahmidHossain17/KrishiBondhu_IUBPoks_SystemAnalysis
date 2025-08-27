@@ -1,5 +1,9 @@
 ﻿{
+<<<<<<< HEAD
     "name": "krishibondhu-farmer-frontend",
+=======
+    "name": "krishibondhu-admin-frontend",
+>>>>>>> e690f6084033f07eddb3504c752508505b4c3843
     "version": "1.0.0",
     "dependencies": {
         "krishibondhu-shared": "file:../shared_frontend.zip"
