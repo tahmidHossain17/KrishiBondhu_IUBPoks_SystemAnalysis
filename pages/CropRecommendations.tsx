@@ -130,6 +130,7 @@ const CropRecommendations: React.FC = () => {
               <CardDescription>Provide your farm details for personalized crop suggestions</CardDescription>
             </CardHeader>
             <CardContent>
+          
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="location">Location</Label>
@@ -139,6 +140,7 @@ const CropRecommendations: React.FC = () => {
                     value={location}
                     onChange={(e) => setLocation(e.target.value)}
                   />
+
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="season">Season</Label>
@@ -157,7 +159,7 @@ const CropRecommendations: React.FC = () => {
                   <Label htmlFor="soilType">Soil Type</Label>
                   <Select value={soilType} onValueChange={setSoilType}>
                     <SelectTrigger>
-                      <SelectValue placeholder="Select soil type" />
+                      <SelectValue placeholder="Select soil type " />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="clay">Clay</SelectItem>
@@ -398,3 +400,4 @@ const CropRecommendations: React.FC = () => {
 };
 
 export default CropRecommendations;
+
