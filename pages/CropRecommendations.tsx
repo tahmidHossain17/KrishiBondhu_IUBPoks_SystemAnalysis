@@ -118,6 +118,7 @@ const CropRecommendations: React.FC = () => {
           </Button>
         </div>
 
+
         {/* Input Form & Weather */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* AI Input Form */}
@@ -134,6 +135,7 @@ const CropRecommendations: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="location">Location</Label>
+                  
                   <Input
                     id="location"
                     placeholder="e.g., Dhaka, Bangladesh"
